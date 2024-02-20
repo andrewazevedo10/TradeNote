@@ -5,7 +5,6 @@ services:
     container_name: tradenote_app
     ports:
       - 8000:8000
-      - 9443:9443
     links:
       - mongo
     environment:
