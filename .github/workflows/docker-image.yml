@@ -28,6 +28,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: andrewazevedo10/tradenote
+          file: ./tradenote
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
