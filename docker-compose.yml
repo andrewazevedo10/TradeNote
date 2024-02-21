@@ -1,7 +1,7 @@
 name: tradenote
 services:
   tradenote:
-    image: tradenote
+    image: andrewazevedo10/tradenote
     container_name: tradenote_app
     ports:
       - 8080:8080
